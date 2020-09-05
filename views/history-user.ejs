@@ -34,20 +34,27 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <%data.forEach((order,index)=>{%>
-                    <%let sno = index+1%>
+
                     <tr>
-                      <td class="border px-4 py-2"><%=sno%></td>
-                      <td class="border px-4 py-2"><%=order.id%></td>
-                      <td class="border px-4 py-2"><%=order.date%></td>
-                      <td class="border px-4 py-2"><%=order.fromLocation%></td>
-                      <%if(order.orderCompleted){%>
-                        <td class="border px-4 py-2 text-green-700">Completed</td>
-                      <%}else{%>
-                        <td class="border px-4 py-2 text-red-700">Pending</td>
-                      <%}%>
+                      <td class="border px-4 py-2">1</td>
+                      <td class="border px-4 py-2">2hj223jh1v2321</td>
+                      <td class="border px-4 py-2">3-4-2002</td>
+                      <td class="border px-4 py-2">Fever Report</td>
+                        <td class="border px-4 py-2 text-green-700"><a href="#">View</a></td>
                     </tr>
-                  <%})%>
+                    <tr>
+                     <td class="border px-4 py-2">2</td>
+                     <td class="border px-4 py-2">2hj223jh1v2321</td>
+                     <td class="border px-4 py-2">3-4-2002</td>
+                     <td class="border px-4 py-2">Fever Report</td>
+                       <td class="border px-4 py-2 text-green-700"><a href="#">View</a></td>
+                   </tr><tr>
+                     <td class="border px-4 py-2">3</td>
+                     <td class="border px-4 py-2">2hj223jh1v2321</td>
+                     <td class="border px-4 py-2">3-4-2002</td>
+                     <td class="border px-4 py-2">Fever Report</td>
+                       <td class="border px-4 py-2 text-green-700"><a href="#">View</a></td>
+                   </tr>
                 </tbody>
               </table>
             </div>

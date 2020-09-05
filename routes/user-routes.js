@@ -43,6 +43,9 @@ router.get('/profile',auth.User.authCheck,(req,res)=>{
 })
 
 
+router.get('/history',auth.User.authCheck,(req,res)=>{
+  res.render('history-user');
+})
 
 
 router.get('/logout',(req,res)=>{
