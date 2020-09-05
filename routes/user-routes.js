@@ -32,9 +32,17 @@ router.get('/dashboard',auth.User.authCheck,(req,res)=>{
 })
 
 
+router.get('/schemes',auth.User.authCheck,(req,res)=>{
+  Hospital.find({}).then((data)=>{
+    res.render('dashboard-user',{hospitals : data})
+  })
+})
+
 router.get('/profile',auth.User.authCheck,(req,res)=>{
   res.render('user-profile',{user : req.user});
 })
+
+
 
 
 router.get('/logout',(req,res)=>{
