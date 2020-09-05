@@ -34,7 +34,7 @@ router.get('/dashboard',auth.User.authCheck,(req,res)=>{
 
 router.get('/schemes',auth.User.authCheck,(req,res)=>{
   Hospital.find({}).then((data)=>{
-    res.render('dashboard-user',{hospitals : data})
+    res.render('user-schemes',{hospitals : data})
   })
 })
 
