@@ -44,6 +44,9 @@ app.use((req,res,next)=>{
   next();
 })
 
+app.get('/',(req,res)=>{
+  res.redirect('/user/login');
+})
 
 app.use('/user',require('./routes/user-routes'));
 
