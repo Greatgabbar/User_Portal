@@ -1,5 +1,5 @@
 {
-    "name": "Pansari",
+    "name": "HealthSystem",
     "short_name": "PS",
     "icons": [
         {
@@ -9,7 +9,7 @@
         }
        
     ],
-    "start_url": "/both",
+    "start_url": "/user/login",
     "display": "standalone",
     "orientation": "portrait",
     "background_color": "#ffffff",
