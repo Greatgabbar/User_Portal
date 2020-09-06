@@ -3,7 +3,7 @@
     "short_name": "HS",
     "icons": [
         {
-            "src": "/assets/images/PansariLogo-01.png",
+            "src": "/assets/images/logo.png",
             "sizes": "256x256",
             "type": "image/png"
         }
